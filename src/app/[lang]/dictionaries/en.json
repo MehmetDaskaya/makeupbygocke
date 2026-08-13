@@ -1,0 +1,204 @@
+{
+  "nav": {
+    "portfolio": "Portfolio",
+    "services": "Services",
+    "about": "About",
+    "contact": "Contact",
+    "bookNow": "Book Now",
+    "language": "TR"
+  },
+  "hero": {
+    "tagline": "Makeup Artist · Istanbul",
+    "subtitle": "Bridal & Editorial Makeup",
+    "location": "Maltepe · Kadıköy · Küçükyalı",
+    "cta": "View Portfolio"
+  },
+  "featured": {
+    "label": "Selected Works",
+    "subtitle": "Selected Works",
+    "items": [
+      { "tag": "BRIDAL COUTURE", "title": "Luxury Bridal Signature · Soft Glam" },
+      { "tag": "EDITORIAL", "title": "Vogue Beauty Concept" },
+      { "tag": "NATURAL GLOW", "title": "Elegant & Radiant Touch" },
+      { "tag": "HIGH FASHION", "title": "Creative Shoot Collection" }
+    ]
+  },
+  "portfolioPreview": {
+    "label": "Featured Selection",
+    "subtitle": "Featured Series",
+    "viewAll": "Full Portfolio",
+    "mainTag": "HAUTE COUTURE LOOK",
+    "mainTitle": "Elegant Lines & Radiant Texture",
+    "mainText": "Editorial bridal style crafted to look flawless all day under camera lights.",
+    "side1Tag": "BRIDAL ARTISTRY",
+    "side1Title": "Bridal Collection",
+    "side2Tag": "NATURAL GLOW",
+    "side2Title": "Fresh & Chic Look"
+  },
+  "servicesSnapshot": {
+    "title": "Services",
+    "subtitle": "The Makeup Experience",
+    "learnMore": "Learn More",
+    "bridal": {
+      "title": "Bridal Makeup",
+      "description": "Full-service bridal makeup for your most special day — designed to look flawless and last all day in front of the camera."
+    },
+    "editorial": {
+      "title": "Editorial & Shoots",
+      "description": "Avant-garde and artistic makeup design for fashion magazines, campaigns, and creative editorial projects."
+    },
+    "event": {
+      "title": "Special Event",
+      "description": "For engagements, graduations, galas, and every occasion that deserves a stunning, confident look."
+    },
+    "trial": {
+      "title": "Trial Session",
+      "description": "Discover your perfect look before the big day. Detailed consultation to ensure you love every detail."
+    }
+  },
+  "aboutTeaser": {
+    "title": "About the Artist",
+    "subtitle": "Interpreting Beauty as an Art Form",
+    "text": "With years of experience and a finger on the pulse of the industry, I approach each face with an individual aesthetic. Every brushstroke, every product I use, is designed to tell your story.",
+    "cta": "Learn More"
+  },
+  "finalCta": {
+    "title": "Let's Design Your Vision",
+    "subtitle": "A carefully crafted, personal, and lasting look for every milestone moment. Get in touch to book your appointment.",
+    "cta": "Book Now",
+    "trustItems": ["200+ Happy Brides", "Bespoke Makeup Design", "All Istanbul"]
+  },
+  "footer": {
+    "name": "Gökçe Dila Çağlayan",
+    "tagline": "Makeup Artist · Istanbul",
+    "area": "Maltepe · Kadıköy · Küçükyalı",
+    "phone": "+90 5XX XXX XX XX",
+    "rights": "All rights reserved."
+  },
+  "portfolio": {
+    "title": "Portfolio",
+    "subtitle": "Works & Collections",
+    "filters": {
+      "all": "All",
+      "bridal": "Bridal",
+      "wedding": "Wedding",
+      "editorial": "Editorial",
+      "event": "Event",
+      "natural": "Natural"
+    },
+    "inquire": "Inquire About This Look",
+    "close": "Close",
+    "prev": "Previous",
+    "next": "Next"
+  },
+  "services": {
+    "title": "Services",
+    "subtitle": "Makeup Services",
+    "inquire": "Inquire",
+    "pricing": "* Pricing is determined after consultation. May vary based on location, duration, and specific requirements.",
+    "items": [
+      {
+        "title": "Bridal Makeup",
+        "duration": "2.5 - 3 Hours",
+        "description": "Flawless, camera-ready bridal makeup that lasts all day. From morning preparation through your first dance.",
+        "includes": ["All-Day Longevity", "Airbrush & Classic Techniques", "Complimentary Touch-Up Kit", "Consultation Included"]
+      },
+      {
+        "title": "Trial Session",
+        "duration": "1.5 - 2 Hours",
+        "description": "Perfect your look before the big day. We'll experiment and refine until every detail is exactly right.",
+        "includes": ["Detailed Face Analysis", "Look Trial", "Photo Documentation", "Revision Rights"]
+      },
+      {
+        "title": "Editorial & Shoots",
+        "duration": "Project Based",
+        "description": "Creative and technically precise makeup design for fashion magazines, lookbooks, film, and advertising.",
+        "includes": ["Creative Brief Review", "Set Prep Included", "Extended Shoot Support", "Multiple Looks"]
+      },
+      {
+        "title": "Special Event",
+        "duration": "1 - 2 Hours",
+        "description": "Engagement, graduation, gala, or any special occasion — a look that blends elegance with luminosity.",
+        "includes": ["Personal Consultation", "Product Selection Advisory", "Touch-Up Guide", "Group Pricing Available"]
+      }
+    ],
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "items": [
+        {
+          "question": "When should I book my bridal makeup appointment?",
+          "answer": "I recommend booking a trial session at least 3-6 months before your wedding date. For summer and spring seasons, book even earlier."
+        },
+        {
+          "question": "How long does the makeup last?",
+          "answer": "Bridal makeup is applied with professional products and techniques to last 12-16 hours. It's resistant to humidity, sweat, and tears."
+        },
+        {
+          "question": "Do you travel to the venue or set?",
+          "answer": "Yes, I travel to all locations within Istanbul. A location fee applies based on distance."
+        },
+        {
+          "question": "Airbrush or traditional makeup?",
+          "answer": "I offer both. We'll decide together based on your skin type and desired look. You can try both during the trial session."
+        }
+      ]
+    }
+  },
+  "about": {
+    "title": "About",
+    "headline": "Seeking Art\nWithin Beauty",
+    "story": [
+      "I see a unique beauty in every face. This belief forms the foundation of my approach to makeup artistry.",
+      "Working as a bridal and editorial makeup artist in Istanbul, I aim to provide each client with a one-of-a-kind experience. By blending technical excellence with my personal aesthetic sensibility, I tell your story in its most beautiful form.",
+      "With my studio in Maltepe, Kadıköy, and Küçükyalı, I serve clients across all of Istanbul."
+    ],
+    "philosophy": {
+      "title": "My Philosophy",
+      "text": "Makeup is a tool to reveal the best version of a person. My goal is not to mask beauty, but to deepen what already exists."
+    },
+    "credentials": {
+      "title": "Expertise & Experience",
+      "items": [
+        "200+ Bridal Makeovers",
+        "Fashion & Editorial Campaigns",
+        "MAC, NARS, Charlotte Tilbury Certified",
+        "Istanbul Academy of Beauty Graduate"
+      ]
+    },
+    "backstageLabel": "BEHIND THE SCENES",
+    "backstageTitle": "Set & Backstage Moments"
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Booking & Inquiries",
+    "form": {
+      "name": "Full Name",
+      "email": "Email",
+      "phone": "Phone",
+      "date": "Event Date",
+      "service": "Service",
+      "servicePlaceholder": "Select Service",
+      "serviceOptions": ["Bridal Makeup", "Trial Session", "Editorial & Shoot", "Special Event", "Other"],
+      "message": "Message",
+      "messagePlaceholder": "Tell me briefly about your event and expectations...",
+      "submit": "Send Message",
+      "successTitle": "Message Received",
+      "successText": "I'll be in touch as soon as possible. Thank you."
+    },
+    "info": {
+      "phoneLabel": "Phone",
+      "phone": "+90 5XX XXX XX XX",
+      "instagramLabel": "Instagram",
+      "areaLabel": "Service Area",
+      "area": "Maltepe · Kadıköy · Küçükyalı · All Istanbul",
+      "hoursLabel": "Working Hours",
+      "hours": "Mon - Sun: 09:00 - 20:00",
+      "responseLabel": "Response Time",
+      "response": "I respond to all inquiries within 24 hours. For urgent requests, please DM on Instagram."
+    }
+  },
+  "floatContact": {
+    "tooltip": "DM Us",
+    "aria": "Contact via Instagram DM"
+  }
+}

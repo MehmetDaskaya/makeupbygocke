@@ -3,7 +3,7 @@ import { NextResponse } from "next/server";
 
 // Gökçe'nin mail adresi
 const TO_EMAIL = process.env.CONTACT_EMAIL ?? "gokcedila.caglayan@outlook.com";
-const FROM_EMAIL = "noreply@makeupbygocke.com"; // Domain doğrulandıktan sonra aktif olur
+const FROM_EMAIL = "noreply@makeupbygocke.com"; // Resend domain doğrulaması tamamlandığı için gerçek domaini kullanıyoruz
 
 export async function POST(request: Request) {
   try {

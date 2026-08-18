@@ -10,17 +10,29 @@
   "hero": {
     "tagline": "Makyaj Sanatçısı · İstanbul",
     "subtitle": "Gelin & Editöryal Makyaj",
-    "location": "Maltepe · Kadıköy · Küçükyalı",
+    "location": "İstanbul Geneli",
     "cta": "Portfolyoyu Gör"
   },
   "featured": {
     "label": "Seçkin Çalışmalar",
     "subtitle": "Seçkin Çalışmalar",
     "items": [
-      { "tag": "BRIDAL COUTURE", "title": "Lüks Gelin İmzası · Soft Glam" },
-      { "tag": "EDITORIAL", "title": "Vogue Beauty Concept" },
-      { "tag": "NATURAL GLOW", "title": "Zarif & Işıltılı Dokunuş" },
-      { "tag": "HIGH FASHION", "title": "Kreatif Çekim Koleksiyonu" }
+      {
+        "tag": "BRIDAL COUTURE",
+        "title": "Lüks Gelin İmzası · Soft Glam"
+      },
+      {
+        "tag": "EDITORIAL",
+        "title": "Vogue Beauty Concept"
+      },
+      {
+        "tag": "NATURAL GLOW",
+        "title": "Zarif & Işıltılı Dokunuş"
+      },
+      {
+        "tag": "HIGH FASHION",
+        "title": "Kreatif Çekim Koleksiyonu"
+      }
     ]
   },
   "portfolioPreview": {
@@ -58,7 +70,7 @@
   },
   "aboutTeaser": {
     "title": "Sanatçı Hakkında",
-    "subtitle": "Güzelliği Bir Sanat Olarak Yorumlayan",
+    "subtitle": "Güzellik Bir Sanattır",
     "text": "Yılların birikimi ve sektörün nabzını hisseden bir sanatçı olarak her yüzde bireysel bir estetik anlayış arıyorum. Kullandığım her fırça darbesi, taşıdığım her ürün, sizin hikayenizi anlatmak için tasarlandı.",
     "cta": "Daha Fazlası"
   },
@@ -66,13 +78,16 @@
     "title": "Hayalinizi Birlikte Tasarlayalım",
     "subtitle": "Her büyük gün için özenle tasarlanmış, özel ve kalıcı bir görünüm. Randevu almak için iletişime geçin.",
     "cta": "Randevu Al",
-    "trustItems": ["200+ Mutlu Gelin", "Kişiye Özel Tasarım", "İstanbul Geneli"]
+    "trustItems": [
+      "200+ Mutlu Gelin",
+      "Kişiye Özel Tasarım",
+      "İstanbul Geneli"
+    ]
   },
   "footer": {
     "name": "Gökçe Dila Çağlayan",
     "tagline": "Makyaj Sanatçısı · İstanbul",
-    "area": "Maltepe · Kadıköy · Küçükyalı",
-    "phone": "+90 5XX XXX XX XX",
+    "area": "İstanbul Geneli",
     "rights": "Tüm haklar saklıdır."
   },
   "portfolio": {
@@ -101,25 +116,45 @@
         "title": "Gelin Makyajı",
         "duration": "2.5 - 3 Saat",
         "description": "Büyük gününüzde kamera önünde kalıcı, kusursuz bir görünüm. Sabahtan akşama uzanan özel günde yüzünüz en güzel halinde.",
-        "includes": ["Tam Gün Kalıcılık", "Airbrush & Klasik Teknikler", "Ücretsiz Rötuş Kiti", "Konsültasyon Dahil"]
+        "includes": [
+          "Tam Gün Kalıcılık",
+          "Airbrush & Klasik Teknikler",
+          "Ücretsiz Rötuş Kiti",
+          "Konsültasyon Dahil"
+        ]
       },
       {
         "title": "Deneme Seansı",
         "duration": "1.5 - 2 Saat",
         "description": "Büyük gün öncesi tasarımı birlikte belirleyelim. İstediğiniz görünümü önceden hayata geçirelim ve mükemmelleştirelim.",
-        "includes": ["Detaylı Yüz Analizi", "Look Denemesi", "Fotoğraf Kaydı", "Revizyon Hakkı"]
+        "includes": [
+          "Detaylı Yüz Analizi",
+          "Look Denemesi",
+          "Fotoğraf Kaydı",
+          "Revizyon Hakkı"
+        ]
       },
       {
         "title": "Editöryal & Çekim",
         "duration": "Proje Bazlı",
         "description": "Moda dergileri, lookbook, film ve reklam projeleri için yaratıcı ve teknik açıdan mükemmel makyaj tasarımı.",
-        "includes": ["Yaratıcı Brief Görüşmesi", "Set Hazırlığı Dahil", "Uzun Süreli Çekim Desteği", "Çoklu Look"]
+        "includes": [
+          "Yaratıcı Brief Görüşmesi",
+          "Set Hazırlığı Dahil",
+          "Uzun Süreli Çekim Desteği",
+          "Çoklu Look"
+        ]
       },
       {
         "title": "Özel Gün Makyajı",
         "duration": "1 - 2 Saat",
         "description": "Nişan, mezuniyet, gala ve özel davete özel zarafet ile ışıltıyı harmanlayan etkileyici görünümler.",
-        "includes": ["Kişisel Konsültasyon", "Ürün Seçimi Danışmanlığı", "Rötuş Rehberi", "Gruba Özel Fiyat"]
+        "includes": [
+          "Kişisel Konsültasyon",
+          "Ürün Seçimi Danışmanlığı",
+          "Rötuş Rehberi",
+          "Gruba Özel Fiyat"
+        ]
       }
     ],
     "faq": {
@@ -150,7 +185,7 @@
     "story": [
       "Her yüzde kendine özgü bir güzellik görüyorum. Bu inanç, makyaj sanatına yaklaşımımın temelini oluşturuyor.",
       "İstanbul'da çalışan gelin ve editöryal makyaj sanatçısı olarak, her müşterime biricik bir deneyim sunmayı hedefliyorum. Teknik mükemmellik ile kişisel estetik anlayışımı harmanlayarak, sizin hikayenizi en güzel şekilde anlatıyorum.",
-      "Maltepe, Kadıköy ve Küçükyalı'da stüdyom ile sahaya indiğimde İstanbul'un dört bir yanında hizmet veriyorum."
+      "İstanbul'un tüm ilçelerine (Maltepe, Kadıköy, Küçükyalı ve çevre bölgeler) gelinlerime ve çekim setlerine mobil makyaj hizmeti sunuyorum."
     ],
     "philosophy": {
       "title": "Felsefem",
@@ -178,7 +213,13 @@
       "date": "Etkinlik Tarihi",
       "service": "Hizmet",
       "servicePlaceholder": "Hizmet Seçin",
-      "serviceOptions": ["Gelin Makyajı", "Deneme Seansı", "Editöryal & Çekim", "Özel Gün Makyajı", "Diğer"],
+      "serviceOptions": [
+        "Gelin Makyajı",
+        "Deneme Seansı",
+        "Editöryal & Çekim",
+        "Özel Gün Makyajı",
+        "Diğer"
+      ],
       "message": "Mesaj",
       "messagePlaceholder": "Etkinliğiniz ve beklentileriniz hakkında kısaca bilgi verin...",
       "submit": "Mesaj Gönder",
@@ -186,15 +227,13 @@
       "successText": "En kısa sürede sizinle iletişime geçeceğim. Teşekkürler."
     },
     "info": {
-      "phoneLabel": "Telefon",
-      "phone": "+90 5XX XXX XX XX",
       "instagramLabel": "Instagram",
       "areaLabel": "Hizmet Bölgesi",
-      "area": "Maltepe · Kadıköy · Küçükyalı · İstanbul Geneli",
+      "area": "İstanbul Geneli (Maltepe, Kadıköy, Küçükyalı ve Tüm İlçeler)",
       "hoursLabel": "Çalışma Saatleri",
       "hours": "Pzt - Paz: 09:00 - 20:00",
       "responseLabel": "Yanıt Süresi",
-      "response": "Tüm sorgulamalara 24 saat içinde yanıt veriyorum. Acil durumlar için lütfen Instagram'dan DM atın."
+      "response": "Tüm sorgulamalara 24 saat içinde yanıt veriyorum. Doğrudan hızlı iletişim için lütfen Instagram'dan DM atın."
     }
   },
   "floatContact": {

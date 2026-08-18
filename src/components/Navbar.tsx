@@ -50,7 +50,7 @@ export function Navbar({ dict, lang }: { dict: NavDict; lang: string }) {
           <Link href={base} className="navbar__logo-link" aria-label="Ana Sayfa">
             <Image
               src={logoSrc}
-              alt="Gökçe Dila Çağlayan Logo"
+              alt="Gökçe Dila Çağlayan - Makyaj Sanatçısı Logo"
               width={52}
               height={52}
               priority

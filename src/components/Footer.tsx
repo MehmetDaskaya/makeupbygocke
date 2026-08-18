@@ -2,7 +2,6 @@ interface FooterDict {
   name: string;
   tagline: string;
   area: string;
-  phone: string;
   rights: string;
 }
 

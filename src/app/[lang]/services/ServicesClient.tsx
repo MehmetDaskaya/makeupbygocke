@@ -54,10 +54,10 @@ export function ServicesClient({ dict, lang }: { dict: any; lang: string }) {
               <div className="gold-line" style={{ maxWidth: "8rem", margin: "0.75rem auto 0" }} />
             </div>
 
-            <div className="faq__list">
+            <div className="faq__list reveal">
               {dict.services.faq.items.map((f: any, i: number) => (
-                <div key={i} className={`faq__item reveal${openFaq === i ? " open" : ""}`}>
-                  <button className="faq__question" onClick={() => setOpenFaq(openFaq === i ? null : i)}>
+                <div key={i} className={`faq__item${openFaq === i ? " open" : ""}`}>
+                  <button type="button" className="faq__question" onClick={() => setOpenFaq(openFaq === i ? null : i)}>
                     {f.question}
                     <span className="faq__icon">+</span>
                   </button>

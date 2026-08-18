@@ -187,7 +187,7 @@ export function HomeClient({ dict, lang }: { dict: any; lang: string }) {
         <div className="container">
           <div className="about-teaser__grid">
             <div className="about-teaser__img reveal-left">
-              <Image src={imgs.about} alt="Gökçe Dila Çağlayan" fill unoptimized sizes="(max-width:1024px) 100vw, 42vw" />
+              <Image src={imgs.about} alt={lang === "tr" ? "Gökçe Dila Çağlayan - İstanbul gelin makyaj sanatçısı" : "Gökçe Dila Çağlayan - Istanbul bridal makeup artist"} fill unoptimized sizes="(max-width:1024px) 100vw, 42vw" />
             </div>
 
             <div className="about-teaser__content reveal">

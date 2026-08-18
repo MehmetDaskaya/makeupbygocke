@@ -10,7 +10,7 @@
   "hero": {
     "tagline": "Makeup Artist · Istanbul",
     "subtitle": "Bridal & Editorial Makeup",
-    "location": "Maltepe · Kadıköy · Küçükyalı",
+    "location": "All Istanbul",
     "cta": "View Portfolio"
   },
   "featured": {
@@ -71,8 +71,7 @@
   "footer": {
     "name": "Gökçe Dila Çağlayan",
     "tagline": "Makeup Artist · Istanbul",
-    "area": "Maltepe · Kadıköy · Küçükyalı",
-    "phone": "+90 5XX XXX XX XX",
+    "area": "All Istanbul",
     "rights": "All rights reserved."
   },
   "portfolio": {
@@ -150,7 +149,7 @@
     "story": [
       "I see a unique beauty in every face. This belief forms the foundation of my approach to makeup artistry.",
       "Working as a bridal and editorial makeup artist in Istanbul, I aim to provide each client with a one-of-a-kind experience. By blending technical excellence with my personal aesthetic sensibility, I tell your story in its most beautiful form.",
-      "With my studio in Maltepe, Kadıköy, and Küçükyalı, I serve clients across all of Istanbul."
+      "I offer mobile makeup services for brides and editorial shoots across all districts of Istanbul (including Maltepe, Kadıköy, Küçükyalı)."
     ],
     "philosophy": {
       "title": "My Philosophy",
@@ -186,15 +185,13 @@
       "successText": "I'll be in touch as soon as possible. Thank you."
     },
     "info": {
-      "phoneLabel": "Phone",
-      "phone": "+90 5XX XXX XX XX",
       "instagramLabel": "Instagram",
       "areaLabel": "Service Area",
-      "area": "Maltepe · Kadıköy · Küçükyalı · All Istanbul",
+      "area": "All Istanbul (Maltepe, Kadıköy, Küçükyalı & All Districts)",
       "hoursLabel": "Working Hours",
       "hours": "Mon - Sun: 09:00 - 20:00",
       "responseLabel": "Response Time",
-      "response": "I respond to all inquiries within 24 hours. For urgent requests, please DM on Instagram."
+      "response": "I respond to all inquiries within 24 hours. For direct & fast communication, please DM on Instagram."
     }
   },
   "floatContact": {

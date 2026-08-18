@@ -4,24 +4,50 @@ import Link from "next/link";
 import { getDictionary, hasLocale } from "../dictionaries";
 import type { Locale } from "../dictionaries";
 
+const BASE_URL = "https://makeupbygocke.com";
+
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }) {
   const { lang } = await params;
   const locale = (hasLocale(lang) ? lang : "tr") as Locale;
   const titles: Record<Locale, string> = {
-    tr: "Hakkımda | Gökçe Dila Çağlayan",
-    en: "About | Gökçe Dila Çağlayan",
+    tr: "Makyaj Sanatçısı Hakkında | Gökçe Dila Çağlayan | İstanbul",
+    en: "About the Makeup Artist | Gökçe Dila Çağlayan | Istanbul",
   };
   const descriptions: Record<Locale, string> = {
-    tr: "Makyaj sanatçısı Gökçe Dila Çağlayan hakkında.",
-    en: "About makeup artist Gökçe Dila Çağlayan.",
+    tr: "İstanbul'un gelin ve editöryal makyaj sanatçısı Gökçe Dila Çağlayan hakkında. Uzmanlık, sertifikalar, sanat anlayışı ve 200'den fazla gelin makyajı deneyimi.",
+    en: "About Istanbul bridal and editorial makeup artist Gökçe Dila Çağlayan. Expertise, certifications, artistic vision and 200+ bridal makeup experience.",
   };
-  return { title: titles[locale], description: descriptions[locale] };
+  return {
+    title: titles[locale],
+    description: descriptions[locale],
+    alternates: {
+      canonical: `${BASE_URL}/${locale}/about`,
+      languages: {
+        tr: `${BASE_URL}/tr/about`,
+        en: `${BASE_URL}/en/about`,
+      },
+    },
+    openGraph: {
+      title: titles[locale],
+      description: descriptions[locale],
+      url: `${BASE_URL}/${locale}/about`,
+      images: [{ url: `${BASE_URL}/og-image.jpg`, width: 1200, height: 630 }],
+    },
+  };
 }
 
 const PORTRAIT = "/images/gockecekim3.jpeg";
-const BACKSTAGE = [
-  "/images/gockecekim5.jpeg",
-  "/images/gokcecekim4.jpeg",
+const BACKSTAGE: { src: string; altTr: string; altEn: string }[] = [
+  {
+    src: "/images/gockecekim5.jpeg",
+    altTr: "Gökçe Dila Çağlayan - Set çekimi hazırlık anı",
+    altEn: "Gökçe Dila Çağlayan - behind the scenes shoot preparation",
+  },
+  {
+    src: "/images/gokcecekim4.jpeg",
+    altTr: "Gökçe Dila Çağlayan - backstage makyaj uygulaması",
+    altEn: "Gökçe Dila Çağlayan - backstage makeup application",
+  },
 ];
 const VIDEO = "/images/gockecekim7.mov";
 
@@ -37,7 +63,7 @@ export default async function AboutPage({ params }: { params: Promise<{ lang: st
         <div className="about-page__grid">
           {/* Portre */}
           <div className="about-page__portrait">
-            <Image src={PORTRAIT} alt="Gökçe Dila Çağlayan" fill unoptimized sizes="(max-width:1024px) 100vw, 36vw" priority />
+            <Image src={PORTRAIT} alt={lang === "tr" ? "Gökçe Dila Çağlayan - İstanbul makyaj sanatçısı portresi" : "Gökçe Dila Çağlayan - Istanbul makeup artist portrait"} fill unoptimized sizes="(max-width:1024px) 100vw, 36vw" priority />
           </div>
 
           {/* İçerik */}
@@ -97,9 +123,9 @@ export default async function AboutPage({ params }: { params: Promise<{ lang: st
               <span className="backstage-video-badge">LIVE SET</span>
             </div>
 
-            {BACKSTAGE.map((src, i) => (
+            {BACKSTAGE.map((item, i) => (
               <div key={i} className="backstage-img">
-                <Image src={src} alt="Backstage moment" fill unoptimized sizes="(max-width:768px) 100vw, 33vw" />
+                <Image src={item.src} alt={lang === "tr" ? item.altTr : item.altEn} fill unoptimized sizes="(max-width:768px) 100vw, 33vw" />
               </div>
             ))}
           </div>

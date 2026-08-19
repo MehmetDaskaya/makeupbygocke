@@ -14,8 +14,8 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
     en: "About the Makeup Artist | Gökçe Dila Çağlayan | Istanbul",
   };
   const descriptions: Record<Locale, string> = {
-    tr: "İstanbul'un gelin ve editöryal makyaj sanatçısı Gökçe Dila Çağlayan hakkında. Uzmanlık, sertifikalar, sanat anlayışı ve 200'den fazla gelin makyajı deneyimi.",
-    en: "About Istanbul bridal and editorial makeup artist Gökçe Dila Çağlayan. Expertise, certifications, artistic vision and 200+ bridal makeup experience.",
+    tr: "İstanbul'un gelin ve editöryal makyaj sanatçısı Gökçe Dila Çağlayan hakkında. Uzmanlık, sertifikalar, benzersiz sanat anlayışı ve profesyonel gelin makyajı deneyimi.",
+    en: "About Istanbul bridal and editorial makeup artist Gökçe Dila Çağlayan. Expertise, certifications, unique artistic vision and professional bridal makeup experience.",
   };
   return {
     title: titles[locale],

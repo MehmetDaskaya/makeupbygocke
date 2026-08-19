@@ -38,6 +38,9 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
 
   return {
     metadataBase: new URL(BASE_URL),
+    verification: {
+      google: "jS55Rt3-PE65bTFNLhqwc7JY34_yuzvYuVIoUigqUfQ",
+    },
     title: {
       default: titles[locale],
       template: `%s | Gökçe Dila Çağlayan`,
@@ -126,7 +129,7 @@ function LocalBusinessSchema({ lang }: { lang: string }) {
     "serviceType": isTr
       ? ["Gelin Makyajı", "Editöryal Makyaj", "Düğün Makyajı", "Fotoğraf Çekimi Makyajı", "Özel Gün Makyajı", "Deneme Seans Makyajı"]
       : ["Bridal Makeup", "Editorial Makeup", "Wedding Makeup", "Photo Shoot Makeup", "Special Event Makeup"],
-    "knowsAbout": ["Gelin Makyajı", "Editöryal Makyaj", "Smokey Eye", "Natural Glow Makeup", "Airbrush Makeup", "MAC Cosmetics", "NARS", "Charlotte Tilbury"],
+    "knowsAbout": ["Gelin Makyajı", "Editöryal Makyaj", "Smokey Eye", "Natural Glow Makeup", "Airbrush Makeup", "Académie de Leyan", "Altier Academy"],
     "openingHoursSpecification": [{
       "@type": "OpeningHoursSpecification",
       "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],

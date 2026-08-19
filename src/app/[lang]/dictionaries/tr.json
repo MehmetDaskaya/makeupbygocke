@@ -71,7 +71,7 @@
   "aboutTeaser": {
     "title": "Sanatçı Hakkında",
     "subtitle": "Güzellik Bir Sanattır",
-    "text": "Yılların birikimi ve sektörün nabzını hisseden bir sanatçı olarak her yüzde bireysel bir estetik anlayış arıyorum. Kullandığım her fırça darbesi, taşıdığım her ürün, sizin hikayenizi anlatmak için tasarlandı.",
+    "text": "Sektörün nabzını hisseden bir sanatçı olarak her yüzde bireysel bir estetik anlayış arıyorum. Kullandığım her fırça darbesi, taşıdığım her ürün, sizin hikayenizi anlatmak için tasarlandı.",
     "cta": "Daha Fazlası"
   },
   "finalCta": {
@@ -79,10 +79,18 @@
     "subtitle": "Her büyük gün için özenle tasarlanmış, özel ve kalıcı bir görünüm. Randevu almak için iletişime geçin.",
     "cta": "Randevu Al",
     "trustItems": [
-      "200+ Mutlu Gelin",
+      "Lüks Makyaj Ürünleri",
       "Kişiye Özel Tasarım",
       "İstanbul Geneli"
     ]
+  },
+  "brandHygiene": {
+    "title": "Kalite & Hijyen Standartları",
+    "subtitle": "Kullandığımız Seçkin Markalar ve Ödün Vermediğimiz Hijyen",
+    "brandsTitle": "Lüks Ürün Kalitesi",
+    "brandsDesc": "Makyajın gün boyu kalıcı olması, flaşlar altında kusursuz görünmesi ve cildinize nefes aldırması için yalnızca prestijli dünya markaları ile çalışıyorum. Çantamızda MAC, NARS, Charlotte Tilbury, Kryolan ve Sephora gibi sektör lideri markaların en özel ürünleri yer alır.",
+    "hygieneTitle": "Kusursuz Hijyen Standartları",
+    "hygieneDesc": "Sağlığınız bizim için en büyük önceliktir. Her müşterimiz için tek kullanımlık aplikatörler kullanıyor, fırçalarımızı her uygulama öncesinde ve sonrasında profesyonelce dezenfekte ediyoruz. Maskara ve ruj gibi ürünlerde çift daldırma (double-dipping) yapmayarak cildinizi koruyoruz."
   },
   "footer": {
     "name": "Gökçe Dila Çağlayan",
@@ -194,10 +202,12 @@
     "credentials": {
       "title": "Uzmanlık & Deneyim",
       "items": [
-        "200'den Fazla Gelin Makyajı",
-        "Moda & Editöryal Çekimler",
-        "MAC, NARS, Charlotte Tilbury Sertifikalı",
-        "İstanbul Güzellik Akademisi Mezunu"
+        "Académie de Leyan Mezunu",
+        "Altier Academy Advanced Level Masterclass Makeup Sertifikası",
+        "Altier Academy Backstage Makyaj Sertifikası",
+        "Altier Academy Ten Makyajı Sertifikası",
+        "Altier Academy Glam Eyes Sertifikası",
+        "Leyan Academy Profesyonel Makyaj Sertifikası"
       ]
     },
     "backstageLabel": "KULİS VE SANATÇI ANLARI",

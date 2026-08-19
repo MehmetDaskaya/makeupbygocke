@@ -19,8 +19,8 @@ export async function generateMetadata({
   };
 
   const descriptions: Record<Locale, string> = {
-    tr: "İstanbul makyaj sanatçısı Gökçe Dila Çağlayan'ın gelin makyajı, editöryal çekim ve özel gün portfolyosu. 200'den fazla mutlu gelin. Düğün, nişan ve davet makyajı fotoğrafları.",
-    en: "Portfolio of Istanbul makeup artist Gökçe Dila Çağlayan — bridal, editorial and special occasion makeup. Over 200 happy brides. Wedding, engagement and event makeup photography.",
+    tr: "Gökçe Dila Çağlayan portfolyosunda en son gelin makyaj modelleri, profesyonel düğün ve editöryal fotoğraf çekimi makyajı örnekleri.",
+    en: "Explore the latest bridal makeup styles, professional wedding makeup lookbook, and editorial shoots in Gökçe Dila Çağlayan portfolio.",
   };
 
   return {

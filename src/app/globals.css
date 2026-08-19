@@ -818,6 +818,100 @@ button { background: none; border: none; cursor: pointer; font: inherit; color: 
   color: var(--c-ivory);
 }
 
+/* ────────────────── BRAND & HYGIENE (Section 4.5) ────────────────── */
+.brand-hygiene {
+  padding: clamp(4rem, 8vw, 8rem) 0;
+  background: var(--c-bg);
+  border-top: 1px solid var(--c-border);
+}
+
+.brand-hygiene__header {
+  text-align: center;
+  margin-bottom: clamp(3rem, 6vw, 5rem);
+}
+
+.brand-hygiene__grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.brand-hygiene__card {
+  padding: 3rem 2.5rem;
+  border: 1px solid var(--c-border);
+  background: var(--c-surface);
+  transition: all 0.4s var(--ease-out);
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  position: relative;
+}
+.brand-hygiene__card:hover {
+  border-color: var(--c-gold-dim);
+  transform: translateY(-4px);
+  box-shadow: 0 12px 30px rgba(30, 20, 15, 0.05);
+}
+
+.brand-hygiene__icon-wrap {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background: rgba(181, 83, 60, 0.08);
+  color: var(--c-gold);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0.5rem;
+}
+
+.brand-hygiene__card-title {
+  font-family: var(--ff-display);
+  font-size: clamp(1.4rem, 2.5vw, 2rem);
+  font-weight: 300;
+  color: var(--c-ivory);
+  letter-spacing: -0.01em;
+}
+
+.brand-hygiene__logos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 1.25rem;
+  margin-top: auto;
+  padding-top: 1.25rem;
+  border-top: 1px solid rgba(181, 83, 60, 0.15);
+}
+.brand-hygiene__logos span {
+  font-size: 0.62rem;
+  font-weight: 500;
+  letter-spacing: 0.2em;
+  color: var(--c-gold);
+  text-transform: uppercase;
+}
+
+.brand-hygiene__checklist {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-top: auto;
+  padding-top: 1.25rem;
+  border-top: 1px solid rgba(181, 83, 60, 0.15);
+}
+.brand-hygiene__checklist li {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 0.72rem;
+  font-weight: 500;
+  color: var(--c-ivory);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.brand-hygiene__checklist li svg {
+  color: var(--c-gold);
+  flex-shrink: 0;
+}
+
 /* ────────────────── ABOUT TEASER (Section 5) ────────────────── */
 .about-teaser {
   padding: clamp(4rem, 8vw, 8rem) 0;
@@ -1495,6 +1589,7 @@ button { background: none; border: none; cursor: pointer; font: inherit; color: 
   .hero__title { font-size: clamp(2.4rem, 9vw, 3.8rem); }
   .featured__grid { grid-template-columns: 1fr 1fr; }
   .spread__grid { grid-template-columns: 1fr; }
+  .brand-hygiene__grid { grid-template-columns: 1fr; }
   .about-teaser__grid { grid-template-columns: 1fr; }
   .about-page__backstage-grid { grid-template-columns: 1fr 1fr; }
   .footer__inner { flex-direction: column; align-items: flex-start; }

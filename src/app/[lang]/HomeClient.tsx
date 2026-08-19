@@ -182,6 +182,67 @@ export function HomeClient({ dict, lang }: { dict: any; lang: string }) {
         </div>
       </section>
 
+      {/* ─── SECTION 4.5: PREMIUM MARKALAR VE HİJYEN ─── */}
+      <section className="brand-hygiene">
+        <div className="container">
+          <div className="brand-hygiene__header reveal">
+            <span className="label mb-sm" style={{ display: "block" }}>{dict.brandHygiene.title}</span>
+            <h2 className="display-lg">{dict.brandHygiene.subtitle}</h2>
+            <div className="gold-line mt-md" style={{ maxWidth: "12rem", margin: "1.5rem auto 0" }} />
+          </div>
+
+          <div className="brand-hygiene__grid stagger">
+            <div className="brand-hygiene__card">
+              <div className="brand-hygiene__icon-wrap">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                </svg>
+              </div>
+              <h3 className="brand-hygiene__card-title">{dict.brandHygiene.brandsTitle}</h3>
+              <p className="body-text">{dict.brandHygiene.brandsDesc}</p>
+              <div className="brand-hygiene__logos">
+                <span>MAC</span>
+                <span>NARS</span>
+                <span>CHARLOTTE TILBURY</span>
+                <span>KRYOLAN</span>
+                <span>SEPHORA</span>
+              </div>
+            </div>
+
+            <div className="brand-hygiene__card">
+              <div className="brand-hygiene__icon-wrap">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
+                  <polyline points="22 4 12 14.01 9 11.01" />
+                </svg>
+              </div>
+              <h3 className="brand-hygiene__card-title">{dict.brandHygiene.hygieneTitle}</h3>
+              <p className="body-text">{dict.brandHygiene.hygieneDesc}</p>
+              <ul className="brand-hygiene__checklist">
+                <li>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg>
+                  {lang === "tr" ? "Tek Kullanımlık Aplikatörler" : "Single-Use Disposable Applicators"}
+                </li>
+                <li>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg>
+                  {lang === "tr" ? "Sıfır Çift Daldırma (Zero Double-Dipping)" : "Strict Zero Double-Dipping Policy"}
+                </li>
+                <li>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg>
+                  {lang === "tr" ? "Steril Fırça ve Aletler" : "Sanitized & Sterilized Tools"}
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* ─── SECTION 5: SANATÇI HAKKINDA ─── */}
       <section className="about-teaser">
         <div className="container">

@@ -66,7 +66,15 @@
     "title": "Let's Design Your Vision",
     "subtitle": "A carefully crafted, personal, and lasting look for every milestone moment. Get in touch to book your appointment.",
     "cta": "Book Now",
-    "trustItems": ["200+ Happy Brides", "Bespoke Makeup Design", "All Istanbul"]
+    "trustItems": ["Premium Makeup Products", "Bespoke Makeup Design", "All Istanbul"]
+  },
+  "brandHygiene": {
+    "title": "Quality & Hygiene Standards",
+    "subtitle": "Our Selection of Premium Brands and Strict Hygiene Practices",
+    "brandsTitle": "Premium Product Quality",
+    "brandsDesc": "To ensure your makeup lasts all day, looks flawless under flash photography, and allows your skin to breathe, I work exclusively with prestigious global brands. Our kit features handpicked, high-end products from MAC, NARS, Charlotte Tilbury, Kryolan, and Sephora.",
+    "hygieneTitle": "Flawless Hygiene Standards",
+    "hygieneDesc": "Your health and safety are our highest priorities. I use disposable applicators for every client and professionally sanitize all brushes before and after each application. We practice strict zero-double-dipping rules for mascaras and lip products to protect your skin."
   },
   "footer": {
     "name": "Gökçe Dila Çağlayan",
@@ -158,10 +166,12 @@
     "credentials": {
       "title": "Expertise & Experience",
       "items": [
-        "200+ Bridal Makeovers",
-        "Fashion & Editorial Campaigns",
-        "MAC, NARS, Charlotte Tilbury Certified",
-        "Istanbul Academy of Beauty Graduate"
+        "Académie de Leyan Graduate",
+        "Altier Academy Advanced Level Masterclass Makeup Certificate",
+        "Altier Academy Backstage Makeup Certificate",
+        "Altier Academy Skin Makeup Certificate",
+        "Altier Academy Glam Eyes Certificate",
+        "Leyan Academy Professional Makeup Certificate"
       ]
     },
     "backstageLabel": "BEHIND THE SCENES",

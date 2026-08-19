@@ -19,8 +19,8 @@ export async function generateMetadata({
   };
 
   const descriptions: Record<Locale, string> = {
-    tr: "İstanbul gelin makyajı, düğün makyajı, editöryal çekim makyajı ve özel gün hizmetleri. Deneme seansı ve fiyat bilgisi için iletişime geçin. Maltepe, Kadıköy, Küçükyalı ve tüm İstanbul.",
-    en: "Istanbul bridal makeup, wedding makeup, editorial shoot makeup and special event services. Contact for trial sessions and pricing. Serving all Istanbul districts.",
+    tr: "İstanbul gelin makyajı fiyatları, profesyonel düğün makyajı, deneme seansı ve gelin makyaj modelleri. Gökçe Dila Çağlayan ile randevu ve detaylı bilgi.",
+    en: "Istanbul bridal makeup prices, professional wedding makeup, trial sessions, and popular bridal makeup styles by Gökçe Dila Çağlayan.",
   };
 
   return {

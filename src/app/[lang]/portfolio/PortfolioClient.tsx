@@ -11,10 +11,8 @@ import { portfolioImages, type PortfolioCategory } from "@/lib/portfolio-data";
 const CATEGORIES: Array<{ key: string; filterKey: PortfolioCategory | "all" }> = [
   { key: "all",       filterKey: "all" },
   { key: "bridal",    filterKey: "bridal" },
-  { key: "wedding",   filterKey: "wedding" },
   { key: "editorial", filterKey: "editorial" },
   { key: "event",     filterKey: "event" },
-  { key: "natural",   filterKey: "natural" },
 ];
 
 export function PortfolioClient({ dict, lang }: { dict: any; lang: string }) {

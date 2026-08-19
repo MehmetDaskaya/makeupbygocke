@@ -3,6 +3,7 @@
     "portfolio": "Portfolyo",
     "services": "Hizmetler",
     "about": "Hakkımda",
+    "blog": "Blog",
     "contact": "İletişim",
     "bookNow": "Randevu Al",
     "language": "EN"
@@ -126,7 +127,7 @@
         "description": "Büyük gününüzde kamera önünde kalıcı, kusursuz bir görünüm. Sabahtan akşama uzanan özel günde yüzünüz en güzel halinde.",
         "includes": [
           "Tam Gün Kalıcılık",
-          "Airbrush & Klasik Teknikler",
+          "Kişiye Özel Premium Teknikler",
           "Ücretsiz Rötuş Kiti",
           "Konsültasyon Dahil"
         ]
@@ -179,10 +180,6 @@
         {
           "question": "Sete veya düğün mekanına gelir misiniz?",
           "answer": "Evet, İstanbul içinde tüm lokasyonlara gelirim. Lokasyon ücreti mesafeye göre belirlenir."
-        },
-        {
-          "question": "Airbrush makyaj mı, klasik makyaj mı?",
-          "answer": "Her ikisini de uygulayabiliyorum. Cilt tipinize ve istediğiniz görünüme göre birlikte karar verebiliriz. Deneme seansında ikisini de deneyebilirsiniz."
         }
       ]
     }

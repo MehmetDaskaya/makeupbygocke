@@ -79,17 +79,19 @@ export function PortfolioClient({ dict, lang }: { dict: any; lang: string }) {
           {/* Fotoğraf Galerisi Grid */}
           <div className="portfolio-grid">
             {filtered.map((img, i) => (
-              <div key={img.id} className="portfolio-item" onClick={() => { setLbIdx(i); setLbOpen(true); }}>
-                <Image
-                  src={img.src}
-                  alt={lang === "tr" ? img.alt : img.altEn}
-                  fill
-                  unoptimized
-                  sizes="(max-width:768px) 50vw, 25vw"
-                />
-                <div className="portfolio-item__overlay">
-                  <p className="display-sm">{lang === "tr" ? (img.caption || img.alt) : (img.captionEn || img.altEn)}</p>
-                  <span className="label mt-sm" style={{ display: "block" }}>{img.category}</span>
+              <div key={img.id} className="portfolio-card-wrap">
+                <div className="portfolio-item" onClick={() => { setLbIdx(i); setLbOpen(true); }}>
+                  <Image
+                    src={img.src}
+                    alt={lang === "tr" ? img.alt : img.altEn}
+                    fill
+                    unoptimized
+                    sizes="(max-width:768px) 50vw, 25vw"
+                  />
+                  <div className="portfolio-item__overlay">
+                    <p className="display-sm">{lang === "tr" ? (img.caption || img.alt) : (img.captionEn || img.altEn)}</p>
+                    <span className="label mt-sm" style={{ display: "block" }}>{img.category}</span>
+                  </div>
                 </div>
               </div>
             ))}

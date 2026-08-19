@@ -62,8 +62,10 @@ export default async function AboutPage({ params }: { params: Promise<{ lang: st
       <div className="container">
         <div className="about-page__grid">
           {/* Portre */}
-          <div className="about-page__portrait">
-            <Image src={PORTRAIT} alt={lang === "tr" ? "Gökçe Dila Çağlayan - İstanbul makyaj sanatçısı portresi" : "Gökçe Dila Çağlayan - Istanbul makeup artist portrait"} fill unoptimized sizes="(max-width:1024px) 100vw, 36vw" priority />
+          <div className="about-page__portrait-wrap">
+            <div className="about-page__portrait">
+              <Image src={PORTRAIT} alt={lang === "tr" ? "Gökçe Dila Çağlayan - İstanbul makyaj sanatçısı portresi" : "Gökçe Dila Çağlayan - Istanbul makeup artist portrait"} fill unoptimized sizes="(max-width:1024px) 100vw, 36vw" priority />
+            </div>
           </div>
 
           {/* İçerik */}
@@ -124,8 +126,10 @@ export default async function AboutPage({ params }: { params: Promise<{ lang: st
             </div>
 
             {BACKSTAGE.map((item, i) => (
-              <div key={i} className="backstage-img">
-                <Image src={item.src} alt={lang === "tr" ? item.altTr : item.altEn} fill unoptimized sizes="(max-width:768px) 100vw, 33vw" />
+              <div key={i} className="backstage-img-wrap">
+                <div className="backstage-img">
+                  <Image src={item.src} alt={lang === "tr" ? item.altTr : item.altEn} fill unoptimized sizes="(max-width:768px) 100vw, 33vw" />
+                </div>
               </div>
             ))}
           </div>

@@ -129,7 +129,7 @@ function LocalBusinessSchema({ lang }: { lang: string }) {
     "serviceType": isTr
       ? ["Gelin Makyajı", "Editöryal Makyaj", "Düğün Makyajı", "Fotoğraf Çekimi Makyajı", "Özel Gün Makyajı", "Deneme Seans Makyajı"]
       : ["Bridal Makeup", "Editorial Makeup", "Wedding Makeup", "Photo Shoot Makeup", "Special Event Makeup"],
-    "knowsAbout": ["Gelin Makyajı", "Editöryal Makyaj", "Smokey Eye", "Natural Glow Makeup", "Airbrush Makeup", "Académie de Leyan", "Altier Academy"],
+    "knowsAbout": ["Gelin Makyajı", "Editöryal Makyaj", "Smokey Eye", "Natural Glow Makeup", "Académie de Leyan", "Altier Academy"],
     "openingHoursSpecification": [{
       "@type": "OpeningHoursSpecification",
       "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],

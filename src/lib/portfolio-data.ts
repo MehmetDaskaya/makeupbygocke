@@ -139,7 +139,7 @@ export const portfolioImages: PortfolioImage[] = [
   },
   {
     id: 13,
-    src: "/images/asufte.jpeg",
+    src: "/images/vogue_concept.jpeg",
     alt: "Moda editöryal çekim - avant garde makyaj",
     altEn: "Fashion editorial shoot - avant garde makeup",
     category: "editorial",
@@ -149,7 +149,7 @@ export const portfolioImages: PortfolioImage[] = [
   },
   {
     id: 14,
-    src: "/images/asufte2.jpeg",
+    src: "/images/vogue_concept2.jpeg",
     alt: "Özel davet makyajı - lüks gala stili",
     altEn: "Special party makeup - luxury gala style",
     category: "editorial",

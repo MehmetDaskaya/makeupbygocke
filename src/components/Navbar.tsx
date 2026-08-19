@@ -9,6 +9,7 @@ interface NavDict {
   services: string;
   about: string;
   contact: string;
+  blog: string;
   bookNow: string;
   language: string;
 }
@@ -35,6 +36,7 @@ export function Navbar({ dict, lang }: { dict: NavDict; lang: string }) {
     { href: `${base}/portfolio`, label: dict.portfolio },
     { href: `${base}/services`, label: dict.services },
     { href: `${base}/about`, label: dict.about },
+    { href: `${base}/blog`, label: dict.blog },
     { href: `${base}/contact`, label: dict.contact },
   ];
 

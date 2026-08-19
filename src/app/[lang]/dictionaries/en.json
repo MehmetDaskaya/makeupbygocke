@@ -3,6 +3,7 @@
     "portfolio": "Portfolio",
     "services": "Services",
     "about": "About",
+    "blog": "Blog",
     "contact": "Contact",
     "bookNow": "Book Now",
     "language": "TR"
@@ -108,7 +109,7 @@
         "title": "Bridal Makeup",
         "duration": "2.5 - 3 Hours",
         "description": "Flawless, camera-ready bridal makeup that lasts all day. From morning preparation through your first dance.",
-        "includes": ["All-Day Longevity", "Airbrush & Classic Techniques", "Complimentary Touch-Up Kit", "Consultation Included"]
+        "includes": ["All-Day Longevity", "Bespoke Premium Techniques", "Complimentary Touch-Up Kit", "Consultation Included"]
       },
       {
         "title": "Trial Session",
@@ -143,10 +144,6 @@
         {
           "question": "Do you travel to the venue or set?",
           "answer": "Yes, I travel to all locations within Istanbul. A location fee applies based on distance."
-        },
-        {
-          "question": "Airbrush or traditional makeup?",
-          "answer": "I offer both. We'll decide together based on your skin type and desired look. You can try both during the trial session."
         }
       ]
     }

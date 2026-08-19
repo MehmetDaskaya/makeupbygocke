@@ -100,11 +100,13 @@ export function HomeClient({ dict, lang }: { dict: any; lang: string }) {
               const item = featuredItems[i] || { tag: "", title: "" };
               return (
                 <Link key={i} href={`${base}/portfolio`} className="featured__card">
-                  <div className="featured__card-img">
-                    <Image src={img.src} alt={item.title} fill unoptimized sizes="(max-width:768px) 50vw, 25vw" />
-                    <div className="featured__card-overlay">
-                      <span className="featured__card-tag">{item.tag}</span>
-                      <p className="display-sm">{item.title}</p>
+                  <div className="featured__card-img-wrap">
+                    <div className="featured__card-img">
+                      <Image src={img.src} alt={item.title} fill unoptimized sizes="(max-width:768px) 50vw, 25vw" />
+                      <div className="featured__card-overlay">
+                        <span className="featured__card-tag">{item.tag}</span>
+                        <p className="display-sm">{item.title}</p>
+                      </div>
                     </div>
                   </div>
                   <div className="featured__card-meta">
@@ -127,28 +129,34 @@ export function HomeClient({ dict, lang }: { dict: any; lang: string }) {
           </div>
 
           <div className="spread__grid stagger">
-            <div className="spread__main">
-              <Image src={imgs.gridLarge} alt={dict.portfolioPreview.mainTitle} fill unoptimized sizes="(max-width:1024px) 100vw, 58vw" />
-              <div className="spread__caption">
-                <span className="label mb-sm" style={{ display: "block" }}>{dict.portfolioPreview.mainTag}</span>
-                <h3 className="display-md">{dict.portfolioPreview.mainTitle}</h3>
-                <p className="body-small mt-sm">{dict.portfolioPreview.mainText}</p>
+            <div className="spread__main-wrap">
+              <div className="spread__main">
+                <Image src={imgs.gridLarge} alt={dict.portfolioPreview.mainTitle} fill unoptimized sizes="(max-width:1024px) 100vw, 58vw" />
+                <div className="spread__caption">
+                  <span className="label mb-sm" style={{ display: "block" }}>{dict.portfolioPreview.mainTag}</span>
+                  <h3 className="display-md">{dict.portfolioPreview.mainTitle}</h3>
+                  <p className="body-small mt-sm">{dict.portfolioPreview.mainText}</p>
+                </div>
               </div>
             </div>
 
             <div className="spread__side">
-              <div className="spread__thumb">
-                <Image src={imgs.gridSmall1} alt={dict.portfolioPreview.side1Title} fill unoptimized sizes="(max-width:1024px) 100vw, 42vw" />
-                <div className="spread__thumb-caption">
-                  <span className="label" style={{ display: "block", marginBottom: "0.25rem" }}>{dict.portfolioPreview.side1Tag}</span>
-                  <p className="display-sm">{dict.portfolioPreview.side1Title}</p>
+              <div className="spread__thumb-wrap">
+                <div className="spread__thumb">
+                  <Image src={imgs.gridSmall1} alt={dict.portfolioPreview.side1Title} fill unoptimized sizes="(max-width:1024px) 100vw, 42vw" />
+                  <div className="spread__thumb-caption">
+                    <span className="label" style={{ display: "block", marginBottom: "0.25rem" }}>{dict.portfolioPreview.side1Tag}</span>
+                    <p className="display-sm">{dict.portfolioPreview.side1Title}</p>
+                  </div>
                 </div>
               </div>
-              <div className="spread__thumb">
-                <Image src={imgs.gridSmall2} alt={dict.portfolioPreview.side2Title} fill unoptimized sizes="(max-width:1024px) 100vw, 42vw" />
-                <div className="spread__thumb-caption">
-                  <span className="label" style={{ display: "block", marginBottom: "0.25rem" }}>{dict.portfolioPreview.side2Tag}</span>
-                  <p className="display-sm">{dict.portfolioPreview.side2Title}</p>
+              <div className="spread__thumb-wrap">
+                <div className="spread__thumb">
+                  <Image src={imgs.gridSmall2} alt={dict.portfolioPreview.side2Title} fill unoptimized sizes="(max-width:1024px) 100vw, 42vw" />
+                  <div className="spread__thumb-caption">
+                    <span className="label" style={{ display: "block", marginBottom: "0.25rem" }}>{dict.portfolioPreview.side2Tag}</span>
+                    <p className="display-sm">{dict.portfolioPreview.side2Title}</p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -193,6 +201,15 @@ export function HomeClient({ dict, lang }: { dict: any; lang: string }) {
 
           <div className="brand-hygiene__grid stagger">
             <div className="brand-hygiene__card">
+              <div className="brand-hygiene__floating-img">
+                <Image
+                  src="/images/makyajmalzemeleri1.jpeg"
+                  alt="Lüks makyaj malzemeleri kiti"
+                  fill
+                  unoptimized
+                  sizes="120px"
+                />
+              </div>
               <div className="brand-hygiene__icon-wrap">
                 <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
                   <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
@@ -249,8 +266,10 @@ export function HomeClient({ dict, lang }: { dict: any; lang: string }) {
       <section className="about-teaser">
         <div className="container">
           <div className="about-teaser__grid">
-            <div className="about-teaser__img reveal-left">
-              <Image src={imgs.about} alt={lang === "tr" ? "Gökçe Dila Çağlayan - İstanbul gelin makyaj sanatçısı" : "Gökçe Dila Çağlayan - Istanbul bridal makeup artist"} fill unoptimized sizes="(max-width:1024px) 100vw, 42vw" />
+            <div className="about-teaser__img-wrap reveal-left">
+              <div className="about-teaser__img">
+                <Image src={imgs.about} alt={lang === "tr" ? "Gökçe Dila Çağlayan - İstanbul gelin makyaj sanatçısı" : "Gökçe Dila Çağlayan - Istanbul bridal makeup artist"} fill unoptimized sizes="(max-width:1024px) 100vw, 42vw" />
+              </div>
             </div>
 
             <div className="about-teaser__content reveal">

@@ -202,8 +202,10 @@ export function HomeClient({ dict, lang }: { dict: any; lang: string }) {
               <p className="body-text">{dict.brandHygiene.brandsDesc}</p>
               <div className="brand-hygiene__logos">
                 <span>MAC</span>
-                <span>NARS</span>
                 <span>CHARLOTTE TILBURY</span>
+                <span>MAKE UP FOR EVER</span>
+                <span>HUDA BEAUTY</span>
+                <span>DIOR</span>
                 <span>KRYOLAN</span>
                 <span>SEPHORA</span>
               </div>

@@ -26,7 +26,15 @@ export function Footer({ dict }: { dict: FooterDict }) {
         </div>
 
         <p className="footer__copy">
-          &copy; {new Date().getFullYear()} Gökçe Dila Çağlayan. {dict.rights}
+          &copy; {new Date().getFullYear()} Gökçe Dila Çağlayan. All rights reserved {" "}
+          <a
+            href="https://www.instagram.com/bucakyazilim/"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ textDecoration: "underline", color: "inherit" }}
+          >
+            @bucakyazilim
+          </a>
         </p>
       </div>
     </footer>
